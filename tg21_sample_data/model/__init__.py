@@ -60,3 +60,4 @@ def init_model(engine):
 
 # Import your model modules here.
 from state import *
+from data_migration import *
