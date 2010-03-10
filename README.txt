@@ -1,5 +1,14 @@
-This file is for you to describe the tg21-sample-data application. Typically
-you would include information such as the information below:
+This file is for you to describe the tg21-sample-data application. 
+
+This Turbogears app shows how to use websetup/bootstrap.py to
+add bootstrap data to your application.
+
+It uses sqlalchemy-migrate to migrate the database too.
+
+Meant to be ran inside a virtualenv.
+
+Standard Information Below
+======================
 
 Installation and Setup
 ======================
