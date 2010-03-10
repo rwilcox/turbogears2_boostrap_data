@@ -1,6 +1,7 @@
 This Turbogears app shows how to use websetup/bootstrap.py to
 add bootstrap data to your application, and presents a better way than
-the built-in Turbogears way to do this.
+the built-in Turbogears way to do this. See tg21_sample_data/websetup/bootstrap.py for more details on that.
+
 
 If you browse this repository by looking at the diffs, or by following along, time traveling to
 each commit, you'll see the evolutions from the out-of-the-box TG way to a more complicated (but more robust) way
