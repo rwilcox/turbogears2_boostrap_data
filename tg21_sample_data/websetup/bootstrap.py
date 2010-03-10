@@ -19,7 +19,7 @@ def bootstrap(command, conf, vars):
     # This is the normal way to do bootstrap data in a TG2.1 app, and it's OK
     # it does, however, have the following limitations:
     #
-    # 1) If you run `paster setup-app` twice you'll get 52 * 2 = 104 records
+    # 1) If you run `paster setup-app` twice you'll get 51 * 2 = 102 records (for our example of having bootstrap data of the US states)
     # 2) If you have new sample data to add to this file (say a list of timezones)
     #     you have to rerun `paster setup-app` to get the new bootstrap data...
     #     and you'll get duplicate data
