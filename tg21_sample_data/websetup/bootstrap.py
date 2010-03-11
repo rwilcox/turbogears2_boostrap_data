@@ -52,5 +52,10 @@ def bootstrap(command, conf, vars):
     # a setting and maybe do nothing if it's set a certain way)
     
     # So, we load the data migrations from websetup/bootstrap_data/bootstrap_*.py
-    # and execute each module's upgrade() or downgrade function as required
+    # and execute each module's upgrade() or downgrade() function as required
+    #
+    # Having spoken about downgrade(), it's dangerous: if you have data in your application
+    # that reference those records with foriegn keys, you risk leaving those pointing objects
+    # dangling that reference. So be careful, but it's there.
+    #
     DataMigration.run_all(conf)
